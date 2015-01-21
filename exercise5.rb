@@ -4,11 +4,11 @@ puts "Please enter the temperature in Fahrenheit."
 fdegrees = gets.chomp
 
 
-
 def temp_conversion(temp)
-	c = (temp.to_i - 32) * 5/9
-	puts "The temperature is #{c} degrees Celsius."
+	(temp.to_i - 32) * 5/9	
 end
+
+puts "The temperature is #{temp_conversion(fdegrees)} degrees Celsius."
 
 temp_conversion(fdegrees)
 
