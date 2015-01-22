@@ -32,7 +32,7 @@ students.delete(:cohort2)
 
 increase(students)
 
-puts "Add all the cohorts together"
+puts "Add the remaining cohorts (1,3,4) together"
 
 sum = 0
 students.each {|x, y| sum = sum + y}
